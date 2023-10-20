@@ -1,0 +1,89 @@
+
+
+
+SAVE WORK TO GITHUB
+In the terminal, navigate to the prework-study-guide directory. Use the following command to stage your changes:
+   git add -A
+Next, try adding a commit message on your own by replacing <your message here> with a message that describes the changes you made during this lesson:
+   git commit -m “<your message here>”
+Once the changes are added and committed locally, make sure the local branch is up to date before pushing up the changes. Pull in the base branch main to your feature branch feature/add-js by running the following Git command:
+   git pull origin main
+To complete the Git flow, use git push to push up your changes to the remote repository by running the following Git command:
+   git push origin feature/add-js
+Now that the changes have been committed to the remote repository in GitHub, we can merge the branch and close the issue.
+
+
+
+
+MERGE BRANCH
+Navigate to the prework-study-guide repository in GitHub. Change the branch to the feature/add-js branch and refresh the page to confirm that the changes we pushed up are now in the feature branch in GitHub.
+
+Navigate to the "Pull Requests" tab and open a new pull request. Make sure that you select main as the base branch and feature/add-js as the comparison branch. Click "Create pull request" to open a PR.
+
+Once on the pull request form, give your PR a title and a short description of the changes. Click the "Merge pull request" button to merge your work into the main branch.
+
+Now that our final JavaScript code has been merged, we can go ahead and close the associated GitHub issue. Navigate to the "Issues" tab and select the "JavaScript" issue. Go ahead and close that issue.
+
+In the next lesson, we will deploy the main branch to GitHub Pages, so let's get a head start and make sure our changes are now in your local main branch. In the terminal, switch to the main branch and pull in the latest changes.   
+
+
+
+
+GIT HUB - MERGE BRANCH AND CLOSE ISSUE
+Navigate to the prework-study-guide repository in GitHub. Change the branch to the feature/add-js branch and refresh the page to confirm that the changes we pushed up are now in the feature branch in GitHub.
+
+Navigate to the "Pull Requests" tab and open a new pull request. Make sure that you select main as the base branch and feature/add-js as the comparison branch. Click "Create pull request" to open a PR.
+
+Once on the pull request form, give your PR a title and a short description of the changes. Click the "Merge pull request" button to merge your work into the main branch.
+
+Now that our final JavaScript code has been merged, we can go ahead and close the associated GitHub issue. Navigate to the "Issues" tab and select the "JavaScript" issue. Go ahead and close that issue.
+
+In the next lesson, we will deploy the main branch to GitHub Pages, so let's get a head start and make sure our changes are now in your local main branch. In the terminal, switch to the main branch and pull in the latest changes.
+
+
+
+GIT COMMANDS TO SWITCH BRANCHES
+The Git commands are git checkout main to switch to the main branch, and git pull origin main to pull in the latest changes.
+
+
+
+
+
+
+
+
+
+----------------------------------
+
+The goal of this lesson is to add Javascript functions to the Prework Study Guide.
+
+To get there, we'll follow this game plan:
+
+Write a function.
+
+Call a function.
+
+Complete the Git flow.
+
+----------------------------------------------------
+
+ARRAYS (for loop) & (if)
+var topics = ['HTML', 'CSS', 'Git', 'JavaScript'];
+
+for (var x =0; x < topics. length; x++) {
+    console.log(topics[x]);
+}
+
+/*
+if (topic === 'HTML') {
+ console.log("Let's study HTML!");
+} else if (topic === 'CSS') {
+ console.log("Let's study CSS!");
+} else if (topic === 'Git') {
+ console.log("Let's study Git!");
+} else if (topic === 'JavaScript') {
+ console.log("Let's study JavaScript!");
+} else {
+ console.log('Please try again!');
+}
+*/

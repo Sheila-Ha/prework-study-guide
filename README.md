@@ -56,7 +56,7 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 13. You should have a file called "README.md"
     a. .md extension indicates that this is a Markdown file.
-
+    
 - NAVIGATE IN GIT AND CREATE A FILE
 
 1. We want to be able to see a list of files and directories on our computer. 
